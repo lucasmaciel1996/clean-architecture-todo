@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "start": "yarn ts-node --transpileOnly index.ts"
+    "start:dev": "yarn ts-node --transpileOnly src/index.ts"
   },
   "author": "",
   "license": "ISC",
