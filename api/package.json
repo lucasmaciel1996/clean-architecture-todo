@@ -6,6 +6,7 @@
   "scripts": {
     "start:dev": "ts-node-dev  -r tsconfig-paths/register --transpile-only --respawn src/main/server.ts",
     "test": "vitest",
+    "test:cov": "vitest --coverage",
     "build": "tsc --build",
     "lint": "eslint src",
     "format": "prettier --ignore-path .gitignore --color --write \"**/*.+(js|ts|json)\""
@@ -14,6 +15,7 @@
     "@types/jest": "^29.1.2",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
+    "@vitest/coverage-c8": "^0.24.1",
     "eslint": "^8.25.0",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.5.0",
