@@ -2,13 +2,13 @@
 
 - Onion
 
-  ![image info](./doc/img/clean.jpg)
+  ![image info](./DOCUMENTATION/img/clean.jpg)
 
 - Hexagonal
 
-  ![image info](./doc/img/hexagonal.gif)
+  ![image info](./DOCUMENTATION/img/hexagonal.gif)
 
-![image info](./doc/img/img.png)
+![image info](./DOCUMENTATION/img/img.png)
 
 # Projeto
 
