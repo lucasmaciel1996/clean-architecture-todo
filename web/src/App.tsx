@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react';
 
-const App: React.FC = () => {
-  return <h1>Okay</h1>;
+interface Props {
+  name: string;
+}
+export const App: React.FC<Props> = ({ name }: Props) => {
+  return <h1>Hello World!! {name}</h1>;
 };
-
-export default App;
