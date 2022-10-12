@@ -27,7 +27,7 @@ module.exports = {
         'import/prefer-default-export': 'off',
         'react/react-in-jsx-scope': 'warn',
         'prettier/prettier': 'warn',
-        'react-hooks/rules-of-hooks': 'warn',
+        'react-hooks/rules-of-hooks': 'off',
         'react-hooks/exhaustive-deps': 'off',
         'no-restricted-globals': 'warn',
         '@typescript-eslint/no-unused-expressions': 'warn',
