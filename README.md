@@ -1,4 +1,4 @@
-## Clean Architeture
+## Clean Architecture
 
 - Onion
 
@@ -10,27 +10,39 @@
 
 ![image info](./DOCUMENTATION/img/img.png)
 
-# Projeto
+# Project
 
 Todo list
 
-# Estrutura
+# Structure
 
 -web
 
 -api
 
-# Técnologias
+# Technologies
 
+- eslint
+- vitest
 - web
-  - vitest
   - vitejs
-  - eslint
-- Back
-  - vitest
+- api
   - typescript
-  - eslint
 
-# Fases
+# Step
 
-#1 Configuração inicial
+- #1 Config
+
+- base project
+- eslint + prettier
+- test runner
+
+#2 Crud Todo
+
+- #1 Create Todo
+  -RN
+  - Not allow duplicate todo same name
+  - Not allow create todo as completed
+- #2 Get List Todo
+- #3 Get One Todo
+- #4 Delete One Todo
