@@ -20,6 +20,10 @@ Todo list
 
 -api
 
+## Ref
+
+- https://paulallies.medium.com/clean-architecture-typescript-and-react-8e509098abfe
+
 # Technologies
 
 - eslint
