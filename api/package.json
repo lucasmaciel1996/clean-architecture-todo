@@ -6,7 +6,8 @@
   "scripts": {
     "start:dev": "ts-node-dev  -r tsconfig-paths/register --transpile-only --respawn src/main/server.ts",
     "test": "vitest",
-    "test:cov": "vitest --coverage",
+    "test:watch": "vitest --watch",
+    "test:cov": "vitest run --coverage",
     "build": "tsc --build",
     "lint": "eslint src",
     "format": "prettier --ignore-path .gitignore --color --write \"**/*.+(js|ts|json)\""
